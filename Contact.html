@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Design Contact form Using Javascript</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!--------Navbar------->
+
+     <nav class="navbar">
+        <img src="logo.png" alt="logo" class="logoimage">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.Html">About </a></li>
+            <li><a href="casestudy.html">Case Study</a></li>
+            <li><a href="Contact.html">Contact </a></li>
+        </ul>
+    </nav>
+    
+    <!--Contact-->
+    <div class="contactpagebody">
+    <div class="contactuspage">
+   <section class="contact">
+    <h2>CONTACT ME!</h2>
+   </section>
+   <form action="#">
+   <div class="input-box">
+    <div class="input-field field">
+        <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+        <div class="error-txt">Full Name can't be blank</div>
+    </div>
+    <div class="input-field field">
+        <input type="text" placeholder="Email-Address" id="email" class="item" autocomplete="off">
+        <div class="error-txt">Email-Address can't be blank</div>
+    </div>
+   </div>
+   <div class="input-box">
+    <div class="input-field field">
+        <input type="text" placeholder="Phone no." id="phone" class="item" autocomplete="off">
+        <div class="error-txt">Phone no. can't be blank</div>
+    </div>
+    <div class="input-field field">
+        <input type="text" placeholder="Subject" id="Subject" class="item" autocomplete="off">
+        <div class="error-txt">Subject can't be blank</div>
+    </div>
+   </div>
+   <div class="textarea-field field">
+    <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" 
+    autocomplete="off"></textarea>
+    <div class="error-txt">Message can't be blank</div>
+   </div>
+   <button type="Submit">Send Message</button>
+</section>
+   </form>
+</div>
+</div>
+</body>
+</html>
